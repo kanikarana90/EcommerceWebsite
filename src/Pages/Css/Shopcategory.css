@@ -1,0 +1,45 @@
+/* Shopcategory.css */
+
+.categories {
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.category-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.category-item {
+  text-decoration: none;
+  color: #333;
+  transition: transform 0.3s ease;
+}
+
+.category-banner {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 10px;
+  transition: filter 0.3s ease;
+}
+
+h2 {
+  font-size: 18px;
+}
+
+/* Hover effect */
+.category-item:hover {
+  transform: scale(1.05);
+}
+
+.category-item:hover .category-banner {
+  filter: brightness(90%);
+}

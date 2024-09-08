@@ -1,0 +1,49 @@
+.offer-background {
+  background-image: url("../../assets/backGround/wall3.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px; /* Set the height according to your design */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+.offer-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.offer-details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.offer-text {
+  text-align: center;
+}
+
+.offer-text h2 {
+  font-size: 24px;
+  margin-bottom: 8px;
+}
+
+.offer-text p {
+  font-size: 16px;
+}
+
+.shop-now-btn {
+  padding: 8px 16px;
+  background-color: #ff5722;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.shop-now-btn:hover {
+  background-color: #e64a19;
+}

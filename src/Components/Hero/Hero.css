@@ -1,0 +1,41 @@
+.hero-container {
+  background-image: url('../../assets//backGround/wall6.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  height: 63vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.hero-content {
+  max-width: 600px;
+  padding: 20px;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.hero-content button {
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  background-color: #e74281;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.hero-content button:hover {
+  background-color: #d50052;
+}
